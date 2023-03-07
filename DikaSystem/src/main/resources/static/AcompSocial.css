@@ -1,0 +1,56 @@
+
+body{
+    font-family: Arial;
+    background-image:linear-gradient(to top, #02fd6b, #02491a);
+}
+
+.formulario{
+    display: block;
+    color: white;
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    width: 40%;
+}
+
+fieldset{
+    display: flex;
+    border: 3px solid #02fd6b;
+    border-radius: 15px;
+}
+
+legend{
+    border: 1px solid rgb(61, 179, 110);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: #1AA15F;
+    color: white;
+}
+
+.container{
+    padding-bottom: 40px;
+}
+
+.inputBox{
+    display: block;
+    position: relative;
+    padding-top: 4px;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline:none;
+    color: white;
+    font-size: 15px;
+}
